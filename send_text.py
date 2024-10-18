@@ -3,7 +3,7 @@ import smtplib
 def send_sms_via_email(phoneNum, message, carrier_gateway):
     to = f"{phoneNum}@{carrier_gateway}"
     from_email = "automation.email110@gmail.com"
-    password = "Automation2020!"
+    password = "oyit nxcm ryyi wynm"
 
     with smtplib.SMTP('smtp.gmail.com', 587) as server:
         server.starttls()
